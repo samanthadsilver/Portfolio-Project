@@ -1,6 +1,7 @@
 :root {
   --main-color: #6c63ff;
   --secondary-color: #f9f7fe;
+  --white-color: white;
   --playfair-font-family: "Playfair Display", serif;
   --poppins-font-family: "Poppins", sans-serif;
   --bold-font: 700;
@@ -20,6 +21,13 @@ h1 {
   line-height: 128px;
 }
 
+h2 {
+  font-family: var(--playfair-font-family);
+  font-weight: var(--bold-font);
+  font-size: 64px;
+  line-height: 86px;
+}
+
 h3 {
   font-size: 36px;
   font-weight: var(--bold-font);
@@ -33,7 +41,7 @@ h5 {
 }
 
 i {
-  color: white;
+  color: var(--white-color);
 }
 
 .hero {
@@ -42,11 +50,50 @@ i {
   padding: 160px 20px;
 }
 
-.btn-branding {
+.btn-main {
   background: var(--main-color);
-  color: white;
+  color: var(--white-color);
   border-radius: 5px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-secondary {
+  background: var(--white-color);
+  color: var(--main-color);
+  border-color: var(--main-color);
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: var(--lighter-font);
+  line-height: 30px;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 48px;
+    line-height: 64px;
+  }
+  h2 {
+    font-size: 48px;
+    line-height: 64px;
+  }
+
+  .hero {
+    padding: 80px 10px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
