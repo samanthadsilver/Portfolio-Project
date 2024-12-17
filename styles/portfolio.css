@@ -79,6 +79,25 @@ p {
   padding: 120px 60px;
 }
 
+.about-me {
+  padding: 160px 20px;
+}
+
+.about-me h1 {
+  font-size: 64px;
+  line-height: 86px;
+}
+
+.about-me h5 {
+  font-size: 18px;
+  font-weight: var(--bold-font);
+  line-height: 27px;
+}
+
+.about-me-content {
+  margin: 10px;
+}
+
 @media (max-width: 1200px) {
   h1 {
     font-size: 48px;
@@ -89,11 +108,39 @@ p {
     line-height: 64px;
   }
 
+  .btn-main {
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 11px 22px;
+  }
+
+  .about-me h1 {
+    font-size: 32px;
+    line-height: 43px;
+  }
+
+  .about-me h5 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .about-me p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
   .hero {
     padding: 80px 10px;
   }
   .project-description {
     padding: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-me-content {
     text-align: center;
   }
 }
