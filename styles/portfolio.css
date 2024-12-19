@@ -170,8 +170,8 @@ footer .email-link a:hover {
 }
 
 footer .social-links a {
-  color: var(--main-color);
-  background: var(--secondary-color);
+  background: var(--main-color);
+  border-radius: 5px;
   margin: 20px;
   padding: 10px 14px;
   font-size: 18px;
