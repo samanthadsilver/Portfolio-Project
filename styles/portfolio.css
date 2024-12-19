@@ -178,7 +178,7 @@ footer .social-links a {
   transition: all 100ms ease-in-out;
 }
 
-footer .social-links a:hover i {
+footer .social-links a:hover {
   color: var(--main-color);
   background: var(--secondary-color);
 }
