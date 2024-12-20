@@ -118,7 +118,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 160px 20px 20px 20px;
 }
 
 .content-container h1 {
@@ -201,6 +201,10 @@ footer .social-links a:hover {
     padding: 11px 22px;
   }
 
+  .content-container {
+    padding: 20px 20px;
+  }
+
   .content-container h1 {
     font-size: 32px;
     line-height: 43px;
@@ -234,6 +238,10 @@ footer .social-links a:hover {
     padding: 0px;
     text-align: center;
   }
+
+  .secondary-title {
+    padding: 10px 20px 20px 20px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -263,5 +271,9 @@ footer .social-links a:hover {
   footer h2 {
     font-size: 36px;
     line-height: 48px;
+  }
+
+  .content-container {
+    padding: 0px 10px;
   }
 }
