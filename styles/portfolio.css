@@ -159,16 +159,6 @@ footer p {
   margin: 0px;
 }
 
-footer .email-link a {
-  text-decoration: none;
-  color: black;
-  font-size: 24px;
-}
-
-footer .email-link a:hover {
-  color: var(--main-color);
-}
-
 footer .social-links a {
   background: var(--main-color);
   border-radius: 10px;
@@ -181,6 +171,11 @@ footer .social-links a {
 footer .social-links a:hover {
   color: var(--main-color);
   background: var(--secondary-color);
+}
+
+.footer-text a {
+  text-decoration: none;
+  color: var(--main-color);
 }
 
 @media (max-width: 1200px) {
@@ -275,5 +270,9 @@ footer .social-links a:hover {
 
   .content-container {
     padding: 0px 10px;
+  }
+
+  .footer-text {
+    font-size: 12px;
   }
 }
